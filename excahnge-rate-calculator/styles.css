@@ -18,3 +18,68 @@ body {
   justify-content: center;
   height: 100vh;
 }
+
+.exchange-img {
+  width: 15rem;
+}
+
+#title,
+#rate {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+#rate {
+  font-size: 0.8rem;
+}
+
+.text {
+  margin: 2rem 0;
+  font-size: 0.8rem;
+}
+
+#title,
+.text {
+  text-align: center;
+}
+
+select {
+  padding: 0.8rem;
+  appearance: base-select;
+  border: 2px solid var(--primary-color);
+}
+
+.swap-rate-container {
+  display: flex;
+  align-items: center;
+  margin: 1.8rem 0;
+}
+
+.swap-rate-container,
+.currency {
+  justify-content: space-between;
+  display: flex;
+}
+
+#swap {
+  padding: 12px 25px;
+  border-radius: 0.25rem;
+  border: none;
+  background-color: var(--primary-color);
+  color: #fff;
+  cursor: pointer;
+}
+
+.amount {
+  border: none;
+  background: transparent;
+  font-size: 2rem;
+  text-align: right;
+  outline: none;
+}
+
+@media (max-width: 500px) {
+  .amount {
+    width: 250px;
+  }
+}
